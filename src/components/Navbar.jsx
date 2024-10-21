@@ -12,7 +12,7 @@ const Navbar = () => {
       <div className="w-full h-screen  bg-black overflow-hidden">
         <header className="lg:px-16 px-4 flex flex-wrap items-center py-4 shadow-lg">
           <div className="flex-1 flex justify-between items-center">
-            <h1 className="text-2xl md:text-3xl text-white font-bold font-serif">Go Telecom</h1>
+            <h1 className="text-2xl md:text-3xl text-white font-bold font-serif"><span className='text-red-500'>Go</span> Telecom</h1>
           </div>
           <label
             onClick={toggleMenu}
@@ -51,7 +51,7 @@ const Navbar = () => {
                 <li>
                   <a
                     className="md:p-4 py-3 px-0 block hover:text-rose-500"
-                    href="#"
+                    href="/Haqqimizda"
                   >
                     Haqqımızda
                   </a>
@@ -59,7 +59,7 @@ const Navbar = () => {
                 <li>
                   <a
                     className="md:p-4 py-3 px-0 block hover:text-rose-500"
-                    href="#"
+                    href="/ChannelList"
                   >
                     Tv Kanallar
                   </a>
@@ -67,17 +67,26 @@ const Navbar = () => {
                 <li>
                   <a
                     className="md:p-4 py-3 px-0 block hover:text-rose-500"
-                    href="#"
+                    href="/Elaqe"
                   >
                     Əlaqə
                   </a>
                 </li>
                 <li>
                   <a
-                    className="md:p-2 py-1 px-1 text-center block hover:text-rose-500 md:mb-0 mb-2 border border-white rounded-lg"
-                    href="#"
+                    className="md:p-2 mr-1 py-1 px-1 text-center block hover:text-rose-500 md:mb-0 mb-2 border border-white rounded-lg"
+                    href="https://fpay.az/guest/payments/new-payment/category/4950/merchant/5286"
                   >
                     <button className="text-center text-sm md:text-lg">Ödəniş et</button>
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    className="md:p-2 py-1 px-1 text-center block hover:text-rose-500 md:mb-0 mb-2 border border-white rounded-lg"
+                    href="tel:+994123100101"
+                  >
+                    <button className="text-center text-sm md:text-lg">Zəng et</button>
                   </a>
                 </li>
               </ul>

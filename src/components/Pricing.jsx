@@ -12,19 +12,7 @@ const Pricing = () => {
           <p className="mx-auto mt-4 max-w-md text-center text-lg leading-6 text-cyan-600">
           Go Telecom ilə ehtiyaclarınıza uyğun mükəmməl planı seçin.
           </p>
-          <div className="mt-12 flex justify-center">
-            <fieldset className="grid grid-cols-2 gap-x-1 rounded-full p-1 text-center text-xs font-semibold leading-5 ring-1 ring-inset ring-red-400">
-              <legend className="sr-only">Payment frequency</legend>
-              <label className="cursor-pointer rounded-full px-2.5 py-1">
-                <input type="radio" name="frequency" value="monthly" className="sr-only" />
-                <span>Monthly</span>
-              </label>
-              <label className="cursor-pointer rounded-full px-2.5 py-1">
-                <input type="radio" name="frequency" value="annually" className="sr-only" />
-                <span>Annually</span>
-              </label>
-            </fieldset>
-          </div>
+  
           <div className="isolate mx-auto mt-8 grid max-w-md grid-cols-1 gap-6 lg:max-w-none lg:grid-cols-3">
             {/* TV Plan */}
             <div className="rounded-2xl p-6 ring-1 xl:p-8 ring-yellow-400">

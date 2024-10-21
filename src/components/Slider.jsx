@@ -65,8 +65,8 @@ const Slider = () => {
             className="absolute inset-0 object-cover w-full h-full"
           />
           <div className="bg-teal-500 bg-opacity-50 h-full flex flex-col items-center justify-start p-8">
-            <h2 className="text-3xl text-white max-w-md z-50">Reliable & Fast Service</h2>
-            <p className="text-white max-w-md z-50">Experience reliable internet and TV service that fits your lifestyle.</p>
+            <h2 className="text-3xl text-white max-w-md z-50">Go telecom IP TV</h2>
+            <p className="text-white max-w-md z-50">300-dən yuxarı kanalı bizim ilə hər yerdən izlə</p>
           </div>
         </div>
       </div>

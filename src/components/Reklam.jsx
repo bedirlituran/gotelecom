@@ -9,21 +9,19 @@ const Reklam = () => {
         <div className="content mx-auto">
           <div className="flex items-center gap-3">
             <hr className="w-8 bg-orange-500 border" />
-            <span className="md:text-[16px] font-medium text-gray-800">
-              UI/UX Designer & Developer
+            <span className="md:text-[24px] font-medium text-gray-800">
+            Bağlantınızın Yeni Ünvani: Go Telecom
             </span>
           </div>
           <p className="text-[32px] lg:text-[40px] xl:text-[45px] font-bold leading-tight mt-4">
-            I'm Rownok Mahbub <br />
-            Designer And Developer
+          Sürətli və Etibarlı Xidmət
           </p>
-          <p className="mt-4 md:text-sm text-gray-700">
-            I'm a creative designer based in Bangladesh, passionate and dedicated to my work. 
-            <br className="hidden md:block" /> Your Satisfaction is my success.
+          <p className="mt-4 md:text-lg text-gray-700">
+          Go Telecom, müştərilərimizin məmnuniyyətini təmin etmək üçün 24/7 müştəri dəstəyi təqdim edir. Hər hansı bir sualınız, problem və ya ehtiyacınız olduğunda bizimlə əlaqə saxlayın, sizə kömək etmək üçün buradayıq. Həyatınızın hər anında bizimlə bağlı qalın!"
           </p>
           <div className="flex gap-3 mt-8">
             <button className="font-medium text-[14px] flex items-center px-4 py-2 md:py-3 md:px-6 rounded-lg bg-gradient-to-r from-orange-300 to-orange-500 hover:from-pink-500 hover:to-yellow-500 transition duration-300 hover:scale-105 text-white shadow-md">
-              Get In Touch
+              Daha çox
               <span className="animate-ping absolute right-0 top-0 w-2 h-2 rounded-full bg-gradient-to-r from-orange-400 to-orange-700"></span>
             </button>
           </div>
@@ -31,8 +29,8 @@ const Reklam = () => {
         
         {/* Sağ içerik */}
         <div className="relative sm:mt-0 mt-8 px-4 sm:px-0 mx-auto">
-          <img className="w-[400px] animate__animated animate__fadeInRight" 
-               src="https://images.unsplash.com/photo-1624628639856-100bf817fd35?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8M2QlMjBpbWFnZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60" 
+          <img className="w-[500px] animate__animated animate__fadeInRight" 
+               src="https://images.unsplash.com/photo-1719937206255-cc337bccfc7d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxfHx8ZW58MHx8fHx8" 
                alt="" />
         </div>
       </div>

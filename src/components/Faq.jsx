@@ -12,38 +12,36 @@ const Faq = () => {
 
     const faqs = [
         {
-            question: "How do I know if a product is available in boutiques?",
-            answer: "Remember you can query the status of your orders any time in My orders in the My account section. If you are not registered at Mango.com, you can access directly in the Orders section. In this case, you will have to enter your e-mail address and order number.",
+            question: "Go telecom istifadəçisi olmaq üçün nə etməliyəm?",
+            answer: "Bunun üçün sadəcə sağ alt küncdə WHATSAPP iconuna toxunmaq kifayət edər.",
         },
         {
-            question: "How can I find the prices or get other information about Chanel products?",
-            answer: "Remember you can query the status of your orders any time in My orders in the My account section. If you are not registered at Mango.com, you can access directly in the Orders section. In this case, you will have to enter your e-mail address and order number.",
+            question: "Aylıq xidmət haqqını necə ödəyə bilərəm?",
+            answer: "Xidmət haqqını sizə rahat olan üsulla ödəmək mümkündür: saytımız vasitəsilə onlayn ödəniş; ödəmə terminalları vasitəsilə ödəniş; bank mobil tətbiqləri ilə ödəniş; onlayn ödəniş saytları ilə.",
         },
         {
-            question: "How many collections come out every year?",
-            answer: "Remember you can query the status of your orders any time in My orders in the My account section. If you are not registered at Mango.com, you can access directly in the Orders section. In this case, you will have to enter your e-mail address and order number.",
+            question: "Tv də heç bir kanal göstərmir və ya səs var görüntün yoxdur bu zaman ne edim?",
+            answer: "Bu halda routerdən tvye gedən kabelin yerində olduğunu, onun zədəli olmadığını yoxlayın. Hər şey qaydasında olduğu halda bizimlə əlaqə saxlayın.",
         },
         {
-            question: "Are all of the fashion collections featured on the website?",
-            answer: "Remember you can query the status of your orders any time in My orders in the My account section. If you are not registered at Mango.com, you can access directly in the Orders section. In this case, you will have to enter your e-mail address and order number.",
+            question: "Qoşulma edilən zaman hansısa tv və ya internet avadanlığı almalıyam?",
+            answer: "Roter pulsuz verilir.Tv üçün isə əgər Televizorunuz smartdırsa vəya andoroid tv boxunuz varsa xeyir.",
         },
         {
-            question: "Where do I find products that I have seen in magazines or Social Media?",
-            answer: "Remember you can query the status of your orders any time in My orders in the My account section. If you are not registered at Mango.com, you can access directly in the Orders section. In this case, you will have to enter your e-mail address and order number.",
+            question: "Wifi şifrəmi unutmuşam vəya routeri reset etmişəm bunun üçün nə etməliyəm?",
+            answer: "Bunun üçün texniki dəstəyimiz ilə mütləq əlaqə saxlamalısıniz və ya sadəcə WHATSAPP düyməsinə toxunaraq 24 saat xidmət göstərən xəttimiz ilə əlaqə saxlaya bilərsiniz .",
         },
     ];
 
     return (
         <div className="lg:container lg:mx-auto lg:py-16 md:py-12 md:px-6 py-12 px-4">
-            <h1 className="text-center dark:text-white lg:text-4xl text-3xl lg:leading-9 leading-7 text-gray-800 font-semibold">Maraqlandıran Suallar</h1>
+            <h1 className="text-center dark:text-white lg:text-4xl text-3xl lg:leading-9 leading-7 text-gray-800 font-semibold">Sual-Cavab bölməsi</h1>
 
             <div className="lg:mt-12 bg-gray-100 dark:bg-gray-800 md:mt-10 mt-8 lg:py-7 lg:px-6 md:p-6 py-6 px-4 lg:w-8/12 w-full mx-auto">
                 <div className="flex justify-between md:flex-row flex-col">
                     <div className="md:mb-0 mb-8 md:text-left text-center">
-                        <h2 className="font-medium dark:text-white text-xl leading-5 text-gray-800 lg:mb-2 mb-4">Questions</h2>
-                        <p className="font-normal dark:text-gray-300 text-sm leading-5 text-gray-600 md:w-8/12 md:ml-0 w-11/12 mx-auto">
-                            If you don’t find your answer, Please contact us or Leave a Message, we’ll be more than happy to assist you.
-                        </p>
+                        <h2 className="font-medium dark:text-white text-xl leading-5 text-gray-800 lg:mb-2 mb-4">Suallar</h2>
+                      
                     </div>
 
                     <div className="flex justify-center items-center">
@@ -64,7 +62,7 @@ const Faq = () => {
                             <div>
                                 <p className="flex justify-center items-center dark:text-white font-medium text-base leading-6 md:leading-4 text-gray-800">
                                     <span className="lg:mr-6 mr-4 dark:text-white lg:text-2xl md:text-xl text-lg leading-6 md:leading-5 lg:leading-4 font-semibold text-gray-800">
-                                        Q{index + 1}.
+                                        Sual{index + 1}.
                                     </span>
                                     {faq.question}
                                 </p>
